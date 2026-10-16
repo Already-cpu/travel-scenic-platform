@@ -1,0 +1,16 @@
+frontend/node_modules/
+frontend/dist/
+backend/target/
+work/maven/
+work/*.zip
+work/*.tgz
+work/*.log
+work/*.err.log
+work/mysql-data/
+backend/uploads/
+runtime/
+uploads/
+**/.env
+**/.env.*
+work/
+outputs/
