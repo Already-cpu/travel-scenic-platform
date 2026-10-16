@@ -43,6 +43,8 @@ Windows 下可直接双击根目录的 `一键启动.bat`。脚本会检查 Java
 
 默认数据库：`localhost:3306/travel_website`，账号/密码：`root/root`。在 `backend/src/main/resources/application.yml` 修改，或用 `SPRING_DATASOURCE_URL`、`SPRING_DATASOURCE_USERNAME`、`SPRING_DATASOURCE_PASSWORD` 覆盖。
 
+公开部署时请通过环境变量设置数据库凭据和 JWT 密钥：`SPRING_DATASOURCE_USERNAME`、`SPRING_DATASOURCE_PASSWORD`、`TRAVEL_JWT_SECRET`。仓库中的默认值只用于本机课程演示，生产环境必须替换。
+
 ## 2. 启动后端
 
 需要 Java 8+ 和 Maven。请在 backend 目录启动，以保证本机上传文件路径一致。
